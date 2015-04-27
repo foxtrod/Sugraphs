@@ -20,7 +20,7 @@ void sugraph(int **a, int n, int m)
 {
 	for (int i = 0; i < n; i ++)
 	{
-		for (int j = 0; j < n; j ++)
+		for (int j = 0; j < m; j ++)
 		{
 			if (a[i][j] == 1 && a[j][i] == 1)
 			{
